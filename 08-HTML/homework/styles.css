@@ -1,23 +1,65 @@
-.divClass h1 {
+body {
+    background-repeat: no-repeat;
+    background-image: url(http://www.todopaisajes.com/1024x768/fondo-3d-del-espacio.jpg);
+    background-size: 81.9rem;
+}
+
+ .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divClass h1 , h3 , h4 {
     color: greenyellow;
 }
 
-img {
-    width: 400px;
+span {
+    color: aqua;
 }
 
-#thirdDiv {
-    background-color: green;
+.thirdDiv {
+    position: relative;
+    background-color: seagreen;
     padding: 50px;
-    height: 600px;
+    height: 500px;
     width: 500px;
-    border-color: mediumspringgreen;
+    border-color: rgb(33, 247, 165);
     border-style: inset;
     border-width: 8px;
 }
 
-#spanId {
-    font-size: 18px;
-    margin: 50px;
+.hijo {
+    position: absolute;
+    left: 0%;
+    top: 0%;
 }
 
+.color4 {
+    color: greenyellow;
+    font-family: cursive;
+}
+
+.lista1 {
+    position: absolute;
+    width: 50px;
+    left: 25px;
+    top: -10px;
+}
+
+.lista2 {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+}
+
+.img1 , .img2 {
+    position: absolute;
+    left: 150px;
+    top: 40px;
+    width: 400px;
+}
+
+#spanId {
+    font-size: 18px;
+}
